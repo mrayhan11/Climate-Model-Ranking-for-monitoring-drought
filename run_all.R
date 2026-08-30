@@ -1,0 +1,12 @@
+source("R/00_setup.R")
+source("R/01_read_bmd.R")
+source("R/02_read_cordex.R")
+source("R/03_bias_correction.R")
+source("R/04_precip_evaluation.R")
+source("R/05_spi_analysis.R")
+source("R/06_model_ranking.R")
+source("R/07_future_ensemble.R")
+source("R/08_drought_events.R")
+source("R/09_plots.R")
+
+message("Workflow finished. Check data/processed and outputs/.")
